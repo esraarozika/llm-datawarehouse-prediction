@@ -62,7 +62,7 @@ predictions = classifier(list(test_sequences_df["Activity_Sequence"]), labels, b
 ## 📌 Notes
 
 
-**Model: facebook/bart-large-mnli from Hugging Face
+* Model: facebook/bart-large-mnli from Hugging Face
 
 **Code was developed and tested in Google Colab
 
