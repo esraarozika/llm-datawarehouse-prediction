@@ -34,7 +34,6 @@ To predict the next subprocess in a business activity sequence without supervise
 
 ## 🧪 Accuracy
 
-```text
 ✅ LLM Prediction Accuracy: 82.37%
 
 ---
@@ -48,7 +47,7 @@ llm-datawarehouse-prediction/
 
 ---
 
-##  📎 Sample Code Snippet
+#3 📎 Sample Code Snippet
 
 classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
 predictions = classifier(list(test_sequences_df["Activity_Sequence"]), labels, batch_size=8)
