@@ -62,21 +62,21 @@ predictions = classifier(list(test_sequences_df["Activity_Sequence"]), labels, b
 ## 📌 Notes
 
 
-*Model: facebook/bart-large-mnli from Hugging Face
+**Model: facebook/bart-large-mnli from Hugging Face
 
-*Code was developed and tested in Google Colab
+**Code was developed and tested in Google Colab
 
-*Dataset not included due to academic restrictions
+**Dataset not included due to academic restrictions
 
 ---
 
 ## 👩‍💻 My Contribution
 
-*Implemented the LLM pipeline for sequence prediction
+**Implemented the LLM pipeline for sequence prediction
 
-*Preprocessed CSV logs and formatted sequences
+**Preprocessed CSV logs and formatted sequences
 
-*Tuned the zero-shot classifier and evaluated performance
+**Tuned the zero-shot classifier and evaluated performance
 
 
 
