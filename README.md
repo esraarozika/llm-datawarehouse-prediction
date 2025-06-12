@@ -46,7 +46,7 @@ To predict the next subprocess in a business activity sequence without supervise
   ├── README.md
   └── sample_data/ (optional)    # If data is sharable, include samples
 </pre>
-<code>
+</code>
 
 
 ---
