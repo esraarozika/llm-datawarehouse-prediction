@@ -39,4 +39,44 @@ To predict the next subprocess in a business activity sequence without supervise
 
 ---
 
-📂 File Structure
+## 📂 File Structure
+
+llm-datawarehouse-prediction/
+├── llm_model_pipeline.py      # Full LLM implementation
+├── README.md
+└── sample_data/ (optional)    # If data is sharable, include samples
+
+---
+
+##  📎 Sample Code Snippet
+
+classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
+predictions = classifier(list(test_sequences_df["Activity_Sequence"]), labels, batch_size=8)
+
+---
+
+## 📌 Notes
+
+
+*Model: facebook/bart-large-mnli from Hugging Face
+
+*Code was developed and tested in Google Colab
+
+*Dataset not included due to academic restrictions
+
+---
+
+## 👩‍💻 My Contribution
+
+*Implemented the LLM pipeline for sequence prediction
+
+*Preprocessed CSV logs and formatted sequences
+
+*Tuned the zero-shot classifier and evaluated performance
+
+
+
+
+
+
+
