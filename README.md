@@ -52,7 +52,7 @@ To predict the next subprocess in a business activity sequence without supervise
 
 ---
 
-#3 📎 Sample Code Snippet
+## 📎 Sample Code Snippet
 
 classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
 predictions = classifier(list(test_sequences_df["Activity_Sequence"]), labels, batch_size=8)
