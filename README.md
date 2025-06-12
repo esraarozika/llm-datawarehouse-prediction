@@ -39,14 +39,15 @@ To predict the next subprocess in a business activity sequence without supervise
 ---
 
 ## 📂 File Structure
-<code>
-  <pre>
+
   llm-datawarehouse-prediction/
+    
   ├── llm_model_pipeline.py      # Full LLM implementation
+  
   ├── README.md
+  
   └── sample_data/ (optional)    # If data is sharable, include samples
-</pre>
-</code>
+
 
 
 ---
